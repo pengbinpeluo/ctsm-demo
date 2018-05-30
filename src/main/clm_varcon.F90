@@ -70,7 +70,7 @@ module clm_varcon
   ! of 0.622 and 0.378 (which is 1 - 0.622) in various places in the code:
   real(r8), parameter :: wv_to_dair_weight_ratio = SHR_CONST_MWWV/SHR_CONST_MWDAIR ! ratio of molecular weight of water vapor to that of dry air [-]
 
-  real(r8) :: tkair  = 0.023_r8                             ! thermal conductivity of air   [W/m/K]
+  real(r8) :: tkair  = 0.025_r8                             ! thermal conductivity of air   [W/m/K]
   real(r8) :: tkice  = 2.290_r8                             ! thermal conductivity of ice   [W/m/K]
   real(r8) :: tkwat  = 0.57_r8                              ! thermal conductivity of water [W/m/K]
   real(r8), parameter :: tfrz   = SHR_CONST_TKFRZ           ! freezing temperature [K]
